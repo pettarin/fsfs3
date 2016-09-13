@@ -1,0 +1,345 @@
+\documentclass[10pt]{book}
+
+\usepackage{url}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{tipa}
+\newcommand{\dotaccent}[1]{\.{#1}}
+\newcommand{\udotaccent}[1]{\textsubdot{#1}}
+\newcommand{\ubaraccent}[1]{\textsubbar{#1}}
+
+% verbatim in footnotes
+\usepackage{fancyvrb}
+\VerbatimFootnotes
+\DefineShortVerb{\|}
+\begin{SaveVerbatim}{VerbatimCodeAppA}
+(define (factorial n)
+  (if (= n 0) 
+      1 
+      (* n (factorial (- n 1)))))
+\end{SaveVerbatim}
+
+
+%% PDF setup
+\usepackage{hyperref}
+\hypersetup{
+    hyperfootnotes=true,
+    colorlinks=true,
+    %citecolor=blue,
+    %filecolor=blue,
+    %linkcolor=blue,
+    %urlcolor=blue,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black,
+    bookmarksopen=true,
+    pdftitle={Free Software, Free Society: Selected Essays of Richard M. Stallman, Third Edition},
+    pdfauthor={Richard M. Stallman}
+}
+
+%% Index
+%\usepackage{makeidx}
+%\makeindex
+
+%% Images
+\usepackage{graphicx}
+\usepackage[labelformat=empty,font={small,it}, width=3.75in]{caption}
+\graphicspath{{./images/}}
+\DeclareGraphicsExtensions{.pdf}
+
+%% Paper size
+%\usepackage[a4paper]{geometry}
+\usepackage{geometry}
+\geometry{papersize={6in,9in}, margin=0.65in}
+
+%% Fancy
+%\iffalse
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\setlength{\headheight}{15pt}
+ 
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+%\renewcommand{\sectionmark}[1]{\markright{#1}{}}
+ 
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO]{\nouppercase{\leftmark}}
+\fancyhead[RE]{Free Sofware, Free Society, 3rd ed.}
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}
+%\fi
+
+%% User definitions
+\newcommand{\code}[1]{\texttt{{#1}}}
+\newcommand{\file}[1]{\texttt{{#1}}}
+\newcommand{\cit}[1]{\textit{{#1}}}
+\newcommand{\dfn}[1]{\textit{{#1}}}
+\newcommand{\dmn}[1]{{#1}}
+
+\newcommand*{\blfootnote}[1]{{\let\thefootnote\relax\footnotetext{{#1}}}}
+
+\newcommand*{\fcn}[2]{\blfootnote{{#1}\\ {#2}\\ \\ This work is licensed under the Creative Commons Attribution-NoDerivatives 4.0 International License (\url{http://creativecommons.org/licenses/by-nd/4.0/})\\ \footnoterule}}
+
+\newcommand*{\scn}[2]{\blfootnote{{#1}\\ {#2}\\ \\ Verbatim copying and distribution of this entire chapter are permitted worldwide, without royalty, in any medium, provided this notice is preserved.\\ \footnoterule}}
+
+\newcommand*{\tcn}[2]{\blfootnote{{#1}\\ {#2}\\ \\ This work is licensed under the Creative Commons Attribution 4.0 International License (\url{http://creativecommons.org/licenses/by/4.0/})\\ \footnoterule}}
+
+\newcommand{\fsfsthreecite}{\cit{Free Software, Free Society: Selected Essays of Richard
+M. Stallman,} 3rd~ed. (Boston: GNU Press, 2015).}
+
+\newcommand{\lowerimage}[3]{\raisebox{-#1}{\includegraphics[height=#2]{#3}}}
+
+\newenvironment{smallquotation}
+{\begin{quotation}\footnotesize}
+{\end{quotation}}
+
+\newenvironment{smallexample}
+{\begin{verbatim}\small}
+{\end{verbatim}}
+
+\newenvironment{quot}
+{\begin{flushleft}\ttfamily\bfseries\footnotesize}
+{\end{flushleft}}
+
+\newcommand{\lessigbio}{\blfootnote{Lawrence Lessig is a Professor of Law at Harvard Law
+School, the director of the Edmond J.~Safra Foundation Center
+for Ethics, and the founder of Stanford Law School's Center for
+Internet and Society. For much of his career, he focused his work on
+law and technology, especially as it affects copyright. He is the
+author of numerous books and has served as a board member of many
+organizations, including the Free Software Foundation.}}
+
+\newcommand{\appelbaumbio}{\blfootnote{Jacob Appelbaum is an independent computer-security researcher,
+journalist and artist. He is a co-founder of Noisebridge, a Debian
+GNU/Linux developer, a core member of the Tor Project, allegedly a
+WikiLeaks co-conspirator, and has collaborated on several high-profile
+research projects.  Because of his political views and the recognition
+he's received in each of his fields of endeavor, he has been
+repeatedly targeted and detained by US law enforcement agencies. By
+birth an American, he works and lives in exile in Berlin.}}
+
+\newcommand{\jstrap}{\blfootnote{Thank you to Matt Lee and John Resig for their help in defining our
+proposed criterion, and to David Parunakian for helping to make me
+aware of the problem.}}
+
+%%% Title setup
+\makeatletter
+\def\thickhrulefill{\leavevmode \leaders \hrule height 1pt\hfill \kern \z@}
+\renewcommand{\maketitle}{\begin{titlepage}%
+    \let\footnotesize\small
+    \let\footnoterule\relax
+    \parindent \z@
+    \reset@font
+    \null\vfil
+    \begin{flushleft}
+      \huge \bfseries \@title
+    \end{flushleft}
+    \par
+    \hrule height 4pt
+    \begin{flushright}
+      \large \subtitle \par
+    \end{flushright}
+    \vskip 60\p@
+    \vfill
+    \begin{flushleft}
+      \large \bfseries \@author
+    \end{flushleft}
+    \hrule height 2pt
+  \end{titlepage}%
+  \setcounter{footnote}{0}%
+}
+\makeatother
+
+\usepackage{endnotes}
+\renewcommand{\footnote}[1]{\endnote{#1}}
+\renewcommand\notesname{Endnotes}
+
+
+%%% workaround for tex4ht introducing - in URLs
+\makeatletter
+\g@addto@macro\UrlSpecials{\do\-{\mbox{-}}}
+\makeatother
+
+
+%%% Setup book info
+\title{Free Software, Free Society}
+\newcommand{\subtitle}{Selected Essays of Richard M. Stallman\\ Third Edition}
+\author{Richard M. Stallman}
+\date{}
+
+
+
+%%% Book text
+\begin{document}
+
+%%% Intro
+%\iffalse
+\thispagestyle{empty}
+\frontmatter
+\maketitle
+\thispagestyle{empty}
+\include{copyright-notice}
+%\include{contents}
+\include{foreword-v3}
+%\input{endnotes}
+\include{foreword-v1}
+%\input{endnotes}
+\include{preface-v3}
+%\input{endnotes}
+%\fi
+%%% End Intro
+
+%%% Switch to arabic numbering
+\mainmatter
+
+%%% Part I
+%\iffalse
+\include{part-one}
+\include{free-sw}
+\input{endnotes}
+\include{thegnuproject}
+\input{endnotes}
+\include{initial-announcement} 
+\input{endnotes}
+\include{free-software-even-more-important}
+\input{endnotes}
+\include{edu-schools}
+\input{endnotes}
+\include{government-free-software}
+\input{endnotes}
+\include{free-doc}
+\input{endnotes}
+\include{selling}
+\input{endnotes}
+\include{free-hardware-designs}
+\input{endnotes}
+\include{applying-free-sw-criteria}
+\input{endnotes}
+%\fi
+
+% Part II
+%\iffalse
+\include{part-two}
+\include{why-gnu-linux}
+\input{endnotes}
+\include{linux-and-gnu}
+\input{endnotes}
+\include{categories}
+\input{endnotes}
+\include{open-source-misses-the-point}
+\input{endnotes}
+\include{not-ipr}
+\input{endnotes}
+\include{why-call-it-the-swindle}
+\input{endnotes}
+\include{words-to-avoid}
+\input{endnotes}
+%\fi
+
+% Part III
+%\iffalse
+\include{part-three}
+\include{right-to-read}
+\input{endnotes}
+\include{misinterpreting-copyright}
+\input{endnotes}
+\include{push-copyright-aside}
+\input{endnotes}
+\include{copyright-vs-community}
+\input{endnotes}
+%\fi
+
+% Part IV
+%\iffalse
+\include{part-four}
+\include{software-literary-patents}
+%\input{endnotes}
+\include{danger-of-software-patents}
+%\input{endnotes}
+\include{limit-patent-effect}
+%\input{endnotes}
+%\fi
+
+% Part V
+%\iffalse
+\include{part-five}
+\include{licenses-introduction}
+%\input{endnotes}
+\include{license-recommendations}
+\input{endnotes}
+\include{x}
+\input{endnotes}
+\include{programs-must-not-limit-freedom-to-run}
+\input{endnotes}
+\include{copyleft}
+\input{endnotes}
+\include{why-copyleft}
+\input{endnotes}
+\include{pragmatic}
+\input{endnotes}
+\include{gpl}
+\input{endnotes}
+\include{rms-why-gplv3}
+\input{endnotes}
+\include{lgpl}
+\input{endnotes}
+\include{fdl}
+\input{endnotes}
+\include{selling-exceptions}
+\input{endnotes}
+%\fi
+
+% Part VI
+%\iffalse
+\include{part-six}
+\include{can-you-trust}
+\input{endnotes}
+\include{javascript-trap}
+\input{endnotes}
+\include{university}
+\input{endnotes}
+\include{nonfree-games}
+\input{endnotes}
+\include{the-danger-of-ebooks}
+\input{endnotes}
+\include{ebooks-must-increase-freedom}
+\input{endnotes}
+\include{who-does-that-server-really-serve}
+\input{endnotes}
+%\fi
+
+% Part VII
+%\iffalse
+\include{part-seven}
+\include{compromise}
+\input{endnotes}
+\include{social-inertia}
+\input{endnotes}
+\include{freedom-or-power}
+\input{endnotes}
+\include{imperfection-isnt-oppression}
+\input{endnotes}
+\include{surveillance-vs-democracy}
+\input{endnotes}
+%\fi
+
+% Appendices
+%\iffalse
+\backmatter
+\appendix
+\include{part-app}
+\input{appendix-a}
+\input{endnotes}
+\input{appendix-b}
+%\input{endnotes}
+\input{appendix-c}
+%\input{endnotes}
+%%%\printindex
+%\fi
+
+\end{document}
+

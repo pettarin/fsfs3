@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="dcidid" version="3.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>Free Software, Free Society</dc:title>
+    <dc:language>en</dc:language>
+    <dc:identifier id="dcidid">9de2f921-69b2-46c1-8e86-c184737b8fd4</dc:identifier>
+    <dc:creator>Richard M. Stallman</dc:creator>
+    <dc:contributor>Jacob Appelbaum</dc:contributor>
+    <dc:contributor>Lawrence Lessig</dc:contributor>
+    <dc:contributor>Kyle Winfree</dc:contributor>
+    <dc:date>2016-09-04T00:00:01Z</dc:date>
+    <meta property="dcterms:modified">2016-09-04T00:00:01Z</meta>
+    <dc:rights>Copyright © 2002, 2010, 2015 Free Software Foundation, Inc. Verbatim copying and distribution of this entire book are permitted worldwide, without royalty, in any medium, provided this notice is preserved. Permission is granted to copy and distribute translations of this book from the original English into another language provided the translation has been approved by the Free Software Foundation and the copyright notice and this permission notice are preserved on all copies.</dc:rights>
+    <dc:description>This is the third edition of Free Software, Free Society: Selected Essays of Richard M. Stallman. Free Software Foundation 51 Franklin Street, Fifth Floor Boston, MA 02110-1335 Copyright © 2002, 2010, 2015 Free Software Foundation, Inc. Verbatim copying and distribution of this entire book are permitted worldwide, without royalty, in any medium, provided this notice is preserved. Permission is granted to copy and distribute translations of this book from the original English into another language provided the translation has been approved by the Free Software Foundation and the copyright notice and this permission notice are preserved on all copies. ISBN 978-0-9831592-6-1. Cover design and photograph by Kyle Winfree.</dc:description>
+    <dc:publisher>Free Software Foundation 51 Franklin Street, Fifth Floor Boston, MA 02110-1335</dc:publisher>
+    <meta name="cover" content="cover.png" />
+  </metadata>
+  <manifest>
+    <item id="cover.png" href="cover.png" media-type="image/png" properties="cover-image" />
+    <item id="ncx" href="fsfs3.ncx" media-type="application/x-dtbncx+xml" />
+    <item id="stylesheet" href="fsfs3.css" media-type="text/css" />
+    <item id="toc" properties="nav" href="toc.xhtml" media-type="application/xhtml+xml" />
+    <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml" />
+    <item id="file1" href="fsfs3.xhtml" media-type="application/xhtml+xml" />
+    <item id="file2" href="fsfs3li1.xhtml" media-type="application/xhtml+xml" />
+    <item id="file3" href="fsfs3li2.xhtml" media-type="application/xhtml+xml" />
+    <item id="file4" href="fsfs3li3.xhtml" media-type="application/xhtml+xml" />
+    <item id="file5" href="fsfs3li4.xhtml" media-type="application/xhtml+xml" />
+    <item id="file6" href="fsfs3pa1.xhtml" media-type="application/xhtml+xml" />
+    <item id="file7" href="fsfs3ch1.xhtml" media-type="application/xhtml+xml" />
+    <item id="file8" href="fsfs3ch2.xhtml" media-type="application/xhtml+xml" />
+    <item id="file9" href="fsfs3ch3.xhtml" media-type="application/xhtml+xml" />
+    <item id="file10" href="fsfs3ch4.xhtml" media-type="application/xhtml+xml" />
+    <item id="file11" href="fsfs3ch5.xhtml" media-type="application/xhtml+xml" />
+    <item id="file12" href="fsfs3ch6.xhtml" media-type="application/xhtml+xml" />
+    <item id="file13" href="fsfs3ch7.xhtml" media-type="application/xhtml+xml" />
+    <item id="file14" href="fsfs3ch8.xhtml" media-type="application/xhtml+xml" />
+    <item id="file15" href="fsfs3ch9.xhtml" media-type="application/xhtml+xml" />
+    <item id="file16" href="fsfs3ch10.xhtml" media-type="application/xhtml+xml" />
+    <item id="file17" href="fsfs3pa2.xhtml" media-type="application/xhtml+xml" />
+    <item id="file18" href="fsfs3ch11.xhtml" media-type="application/xhtml+xml" />
+    <item id="file19" href="fsfs3ch12.xhtml" media-type="application/xhtml+xml" />
+    <item id="file20" href="fsfs3ch13.xhtml" media-type="application/xhtml+xml" />
+    <item id="file21" href="fsfs3ch14.xhtml" media-type="application/xhtml+xml" />
+    <item id="file22" href="fsfs3ch15.xhtml" media-type="application/xhtml+xml" />
+    <item id="file23" href="fsfs3ch16.xhtml" media-type="application/xhtml+xml" />
+    <item id="file24" href="fsfs3ch17.xhtml" media-type="application/xhtml+xml" />
+    <item id="file25" href="fsfs3pa3.xhtml" media-type="application/xhtml+xml" />
+    <item id="file26" href="fsfs3ch18.xhtml" media-type="application/xhtml+xml" />
+    <item id="file27" href="fsfs3ch19.xhtml" media-type="application/xhtml+xml" />
+    <item id="file28" href="fsfs3ch20.xhtml" media-type="application/xhtml+xml" />
+    <item id="file29" href="fsfs3ch21.xhtml" media-type="application/xhtml+xml" />
+    <item id="file30" href="fsfs3pa4.xhtml" media-type="application/xhtml+xml" />
+    <item id="file31" href="fsfs3ch22.xhtml" media-type="application/xhtml+xml" />
+    <item id="file32" href="fsfs3ch23.xhtml" media-type="application/xhtml+xml" />
+    <item id="file33" href="fsfs3ch24.xhtml" media-type="application/xhtml+xml" />
+    <item id="file34" href="fsfs3pa5.xhtml" media-type="application/xhtml+xml" />
+    <item id="file35" href="fsfs3ch25.xhtml" media-type="application/xhtml+xml" />
+    <item id="file36" href="fsfs3ch26.xhtml" media-type="application/xhtml+xml" />
+    <item id="file37" href="fsfs3ch27.xhtml" media-type="application/xhtml+xml" />
+    <item id="file38" href="fsfs3ch28.xhtml" media-type="application/xhtml+xml" />
+    <item id="file39" href="fsfs3ch29.xhtml" media-type="application/xhtml+xml" />
+    <item id="file40" href="fsfs3ch30.xhtml" media-type="application/xhtml+xml" />
+    <item id="file41" href="fsfs3ch31.xhtml" media-type="application/xhtml+xml" />
+    <item id="file42" href="fsfs3ch32.xhtml" media-type="application/xhtml+xml" />
+    <item id="file43" href="fsfs3ch33.xhtml" media-type="application/xhtml+xml" />
+    <item id="file44" href="fsfs3ch34.xhtml" media-type="application/xhtml+xml" />
+    <item id="file45" href="fsfs3ch35.xhtml" media-type="application/xhtml+xml" />
+    <item id="file46" href="fsfs3ch36.xhtml" media-type="application/xhtml+xml" />
+    <item id="file47" href="fsfs3pa6.xhtml" media-type="application/xhtml+xml" />
+    <item id="file48" href="fsfs3ch37.xhtml" media-type="application/xhtml+xml" />
+    <item id="file49" href="fsfs3ch38.xhtml" media-type="application/xhtml+xml" />
+    <item id="file50" href="fsfs3ch39.xhtml" media-type="application/xhtml+xml" />
+    <item id="file51" href="fsfs3ch40.xhtml" media-type="application/xhtml+xml" />
+    <item id="file52" href="fsfs3ch41.xhtml" media-type="application/xhtml+xml" />
+    <item id="file53" href="fsfs3ch42.xhtml" media-type="application/xhtml+xml" />
+    <item id="file54" href="fsfs3ch43.xhtml" media-type="application/xhtml+xml" />
+    <item id="file55" href="fsfs3pa7.xhtml" media-type="application/xhtml+xml" />
+    <item id="file56" href="fsfs3ch44.xhtml" media-type="application/xhtml+xml" />
+    <item id="file57" href="fsfs3ch45.xhtml" media-type="application/xhtml+xml" />
+    <item id="file58" href="fsfs3ch46.xhtml" media-type="application/xhtml+xml" />
+    <item id="file59" href="fsfs3ch47.xhtml" media-type="application/xhtml+xml" />
+    <item id="file60" href="fsfs3ch48.xhtml" media-type="application/xhtml+xml" />
+    <item id="file61" href="fsfs3pa8.xhtml" media-type="application/xhtml+xml" />
+    <item id="file62" href="fsfs3li5.xhtml" media-type="application/xhtml+xml" />
+    <item id="file63" href="fsfs3li6.xhtml" media-type="application/xhtml+xml" />
+    <item id="file64" href="fsfs3li7.xhtml" media-type="application/xhtml+xml" />
+    <item id='fsfs30x_png' href='fsfs30x.png' media-type='image/png' />
+    <item id='fsfs31x_png' href='fsfs31x.png' media-type='image/png' />
+    <item id='fsfs32x_png' href='fsfs32x.png' media-type='image/png' />
+    <item id='fsfs33x_png' href='fsfs33x.png' media-type='image/png' />
+    <item id='fsfs34x_png' href='fsfs34x.png' media-type='image/png' />
+    <item id='fsfs35x_png' href='fsfs35x.png' media-type='image/png' />
+    <item id='fsfs36x_png' href='fsfs36x.png' media-type='image/png' />
+    <item id='fsfs37x_png' href='fsfs37x.png' media-type='image/png' />
+    <item id='fsfs38x_png' href='fsfs38x.png' media-type='image/png' />
+    <item id='fsfs39x_png' href='fsfs39x.png' media-type='image/png' />
+    <item id='fsfs310x_png' href='fsfs310x.png' media-type='image/png' />
+    <item id='fsfs311x_png' href='fsfs311x.png' media-type='image/png' />
+    <item id='fsfs312x_png' href='fsfs312x.png' media-type='image/png' />
+    <item id='fsfs313x_png' href='fsfs313x.png' media-type='image/png' />
+    <item id='fsfs314x_png' href='fsfs314x.png' media-type='image/png' />
+    <item id='fsfs315x_png' href='fsfs315x.png' media-type='image/png' />
+    <item id='fsfs316x_png' href='fsfs316x.png' media-type='image/png' />
+    <item id='fsfs317x_png' href='fsfs317x.png' media-type='image/png' />
+    <item id='fsfs318x_png' href='fsfs318x.png' media-type='image/png' />
+    <item id='fsfs319x_png' href='fsfs319x.png' media-type='image/png' />
+    <item id='fsfs320x_png' href='fsfs320x.png' media-type='image/png' />
+    <item id='fsfs321x_png' href='fsfs321x.png' media-type='image/png' />
+    <item id='fsfs322x_png' href='fsfs322x.png' media-type='image/png' />
+    <item id='fsfs323x_png' href='fsfs323x.png' media-type='image/png' />
+    <item id='fsfs324x_png' href='fsfs324x.png' media-type='image/png' />
+    <item id='fsfs325x_png' href='fsfs325x.png' media-type='image/png' />
+    <item id='fsfs326x_png' href='fsfs326x.png' media-type='image/png' />
+    <item id='fsfs327x_png' href='fsfs327x.png' media-type='image/png' />
+    <item id='fsfs328x_png' href='fsfs328x.png' media-type='image/png' />
+    <item id='fsfs329x_png' href='fsfs329x.png' media-type='image/png' />
+    <item id='fsfs330x_png' href='fsfs330x.png' media-type='image/png' />
+    <item id='fsfs331x_png' href='fsfs331x.png' media-type='image/png' />
+    <item id='fsfs332x_png' href='fsfs332x.png' media-type='image/png' />
+    <item id='fsfs333x_png' href='fsfs333x.png' media-type='image/png' />
+    <item id='fsfs334x_png' href='fsfs334x.png' media-type='image/png' />
+    <item id='fsfs335x_png' href='fsfs335x.png' media-type='image/png' />
+    <item id='fsfs336x_png' href='fsfs336x.png' media-type='image/png' />
+    <item id='fsfs337x_png' href='fsfs337x.png' media-type='image/png' />
+    <item id='fsfs338x_png' href='fsfs338x.png' media-type='image/png' />
+    <item id='fsfs339x_png' href='fsfs339x.png' media-type='image/png' />
+    <item id='fsfs340x_png' href='fsfs340x.png' media-type='image/png' />
+    <item id='fsfs341x_png' href='fsfs341x.png' media-type='image/png' />
+    <item id='fsfs342x_png' href='fsfs342x.png' media-type='image/png' />
+    <item id='fsfs343x_png' href='fsfs343x.png' media-type='image/png' />
+    <item id='fsfs344x_png' href='fsfs344x.png' media-type='image/png' />
+    <item id='fsfs345x_png' href='fsfs345x.png' media-type='image/png' />
+    <item id='fsfs346x_png' href='fsfs346x.png' media-type='image/png' />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover" />
+    <itemref idref="file1" />
+    <itemref idref="file2" />
+    <itemref idref="toc" />
+    <itemref idref="file3" />
+    <itemref idref="file4" />
+    <itemref idref="file5" />
+    <itemref idref="file6" />
+    <itemref idref="file7" />
+    <itemref idref="file8" />
+    <itemref idref="file9" />
+    <itemref idref="file10" />
+    <itemref idref="file11" />
+    <itemref idref="file12" />
+    <itemref idref="file13" />
+    <itemref idref="file14" />
+    <itemref idref="file15" />
+    <itemref idref="file16" />
+    <itemref idref="file17" />
+    <itemref idref="file18" />
+    <itemref idref="file19" />
+    <itemref idref="file20" />
+    <itemref idref="file21" />
+    <itemref idref="file22" />
+    <itemref idref="file23" />
+    <itemref idref="file24" />
+    <itemref idref="file25" />
+    <itemref idref="file26" />
+    <itemref idref="file27" />
+    <itemref idref="file28" />
+    <itemref idref="file29" />
+    <itemref idref="file30" />
+    <itemref idref="file31" />
+    <itemref idref="file32" />
+    <itemref idref="file33" />
+    <itemref idref="file34" />
+    <itemref idref="file35" />
+    <itemref idref="file36" />
+    <itemref idref="file37" />
+    <itemref idref="file38" />
+    <itemref idref="file39" />
+    <itemref idref="file40" />
+    <itemref idref="file41" />
+    <itemref idref="file42" />
+    <itemref idref="file43" />
+    <itemref idref="file44" />
+    <itemref idref="file45" />
+    <itemref idref="file46" />
+    <itemref idref="file47" />
+    <itemref idref="file48" />
+    <itemref idref="file49" />
+    <itemref idref="file50" />
+    <itemref idref="file51" />
+    <itemref idref="file52" />
+    <itemref idref="file53" />
+    <itemref idref="file54" />
+    <itemref idref="file55" />
+    <itemref idref="file56" />
+    <itemref idref="file57" />
+    <itemref idref="file58" />
+    <itemref idref="file59" />
+    <itemref idref="file60" />
+    <itemref idref="file61" />
+    <itemref idref="file62" />
+    <itemref idref="file63" />
+    <itemref idref="file64" />
+</spine>
+<guide>
+    <reference type="cover" title="Cover" href="cover.xhtml" />
+    <reference type="toc" title="Contents" href="toc.xhtml" />
+    <reference type="text" title="Begin" href="fsfs3.xhtml" />
+</guide>
+</package>

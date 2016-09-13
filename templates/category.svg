@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: fig2dev Version 3.2 Patchlevel 5 -->
+<!-- CreationDate: Fri Oct 29 15:17:55 2010 -->
+<!-- Magnification: 1.700 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="7.3in" height="5.4in" viewBox="2147 1339 8724 6500">
+<g style="stroke-width:.025in; stroke:black; fill:none">
+<!-- Line: box -->
+<rect x="2677" y="3442" width="3569" height="807" rx="178" style="stroke:#000000;stroke-width:12; stroke-linejoin:miter; stroke-linecap:butt; "/>
+<!-- Line: box -->
+<rect x="2677" y="2422" width="3569" height="849" rx="178" style="stroke:#000000;stroke-width:12; stroke-linejoin:miter; stroke-linecap:butt; "/>
+<!-- Line: box -->
+<rect x="7139" y="6247" width="2804" height="764" rx="178" style="stroke:#000000;stroke-width:12; stroke-linejoin:miter; stroke-linecap:butt; "/>
+<!-- Line: box -->
+<rect x="2932" y="5227" width="3059" height="764" rx="178" style="stroke:#000000;stroke-width:12; stroke-linejoin:miter; stroke-linecap:butt; "/>
+<!-- Line: box -->
+<rect x="2677" y="4462" width="3569" height="1912" rx="178" style="stroke:#000000;stroke-width:12; stroke-linejoin:miter; stroke-linecap:butt; "/>
+<!-- Line: box -->
+<rect x="7139" y="3739" width="2804" height="1487" rx="178" style="stroke:#000000;stroke-width:12; stroke-linejoin:miter; stroke-linecap:butt; "/>
+<!-- Line: box -->
+<rect x="6502" y="1359" width="4122" height="6459" rx="0" style="stroke:#000000;stroke-width:12; stroke-linejoin:miter; stroke-linecap:butt; "/>
+<!-- Line -->
+<polygon points="3484,6737 3515,6789 3546,6840 3580,6890 3614,6935 3651,6981 3688,7026 3729,7068 3772,7109 3818,7148 3864,7187 3913,7223 3964,7258 4017,7291 4073,7323 4130,7354 4190,7383 4251,7411 4314,7437 4379,7462 4447,7486 4515,7508 4584,7529 4656,7547 4729,7564 4802,7581 4877,7597 4953,7610 5030,7624 5106,7636 5184,7646 5263,7656 5341,7665 5421,7673 5501,7680 5581,7687 5660,7694 5742,7699 5825,7704 5909,7709 5992,7714 6067,7717 6142,7721 6218,7724 6296,7728 6374,7729 6454,7733 6536,7734 6619,7738 6704,7740 6789,7741 6876,7743 6964,7743 7053,7743 7143,7745 7233,7743 7325,7743 7417,7741 7510,7740 7602,7738 7695,7734 7789,7733 7881,7728 7972,7724 8064,7719 8154,7714 8244,7707 8333,7700 8421,7694 8506,7685 8590,7677 8673,7668 8753,7658 8831,7648 8907,7638 8982,7626 9054,7614 9123,7602 9191,7588 9256,7575 9319,7559 9378,7544 9436,7529 9492,7512 9547,7495 9598,7476 9647,7459 9705,7435 9757,7410 9810,7384 9858,7355 9905,7326 9950,7298 9990,7265 10029,7233 10067,7199 10101,7163 10133,7126 10162,7088 10189,7049 10215,7010 10237,6968 10257,6927 10274,6884 10290,6840 10301,6798 10312,6754 10318,6709 10324,6663 10327,6619 10329,6575 10327,6531 10324,6488 10318,6444 10310,6402 10301,6359 10291,6318 10279,6278 10266,6237 10250,6198 10233,6160 10216,6123 10198,6085 10177,6048 10157,6014 10128,5968 10099,5926 10067,5881 10033,5839 9997,5796 9958,5754 9919,5713 9876,5672 9832,5632 9786,5591 9737,5550 9688,5511 9637,5473 9586,5434 9533,5399 9479,5363 9424,5329 9370,5297 9315,5264 9261,5234 9207,5207 9154,5179 9101,5154 9049,5130 8998,5106 8947,5086 8897,5065 8850,5048 8802,5030 8754,5014 8700,4997 8647,4980 8595,4965 8540,4952 8488,4938 8435,4926 8380,4914 8326,4904 8273,4894 8219,4884 8166,4875 8114,4867 8061,4860 8010,4851 7961,4844 7913,4839 7865,4833 7821,4827 7777,4821 7736,4816 7695,4810 7658,4805 7622,4799 7587,4793 7554,4787 7522,4782 7488,4773 7456,4765 7423,4756 7393,4744 7362,4732 7333,4720 7304,4705 7275,4688 7250,4669 7223,4649 7199,4627 7175,4603 7153,4578 7133,4549 7112,4518 7095,4486 7080,4453 7065,4418 7053,4380 7043,4341 7032,4300 7024,4256 7017,4212 7012,4164 7009,4125 7005,4083 7003,4039 7002,3993 7002,3945 7000,3896 7000,3843 7002,3790 7002,3734 7003,3677 7005,3617 7007,3558 7010,3496 7012,3435 7015,3372 7017,3309 7020,3248 7022,3185 7026,3124 7027,3065 7031,3005 7032,2947 7034,2891 7036,2837 7036,2786 7036,2735 7036,2685 7036,2638 7034,2594 7034,2549 7031,2507 7027,2466 7024,2427 7019,2388 7014,2351 7007,2313 6998,2277 6988,2243 6976,2209 6964,2175 6949,2143 6932,2113 6913,2082 6895,2053 6871,2026 6847,1999 6822,1975 6793,1951 6764,1929 6731,1907 6697,1888 6663,1869 6626,1852 6587,1837 6544,1822 6502,1808 6458,1796 6410,1784 6363,1773 6312,1764 6266,1756 6220,1747 6170,1740 6119,1733 6067,1728 6012,1723 5955,1718 5897,1713 5836,1710 5773,1706 5708,1703 5642,1701 5574,1699 5506,1699 5434,1699 5365,1699 5293,1701 5222,1705 5149,1708 5077,1711 5006,1716 4936,1723 4865,1730 4797,1737 4729,1745 4663,1754 4600,1764 4537,1776 4476,1786 4416,1800 4358,1812 4304,1827 4249,1841 4198,1858 4149,1873 4102,1892 4052,1910 4005,1931 3959,1953 3915,1977 3872,2002 3830,2029 3789,2056 3750,2087 3711,2121 3673,2155 3637,2192 3603,2232 3569,2272 3537,2315 3507,2361 3478,2408 3449,2458 3422,2510 3396,2563 3372,2619 3350,2675 3330,2735 3309,2794 3291,2855 3274,2920 3258,2983 3243,3049 3229,3116 3218,3185 3206,3253 3194,3325 3184,3398 3175,3473 3167,3549 3160,3612 3153,3677 3146,3743 3141,3811 3136,3882 3131,3954 3126,4027 3122,4103 3119,4180 3116,4260 3114,4340 3112,4421 3110,4504 3110,4589 3112,4676 3114,4763 3116,4850 3119,4938 3122,5026 3127,5115 3133,5203 3139,5292 3148,5380 3156,5467 3167,5552 3177,5637 3189,5720 3201,5802 3214,5883 3229,5961 3245,6038 3262,6113 3279,6184 3297,6255 3318,6323 3338,6388 3360,6453 3382,6514 3406,6572 3432,6629 3457,6684 3484,6737 " style="stroke:#000000;stroke-width:12; stroke-linejoin:bevel; stroke-linecap:butt; "/>
+<!-- Text -->
+<text xml:space="preserve" x="2422" y="1784" stroke="#000000" fill="#000000" font-family="Times" font-style="normal" font-weight="normal" font-size="245" text-anchor="start">free software</text>
+<!-- Text -->
+<text xml:space="preserve" x="7649" y="2549" stroke="#000000" fill="#000000" font-family="Times" font-style="normal" font-weight="normal" font-size="245" text-anchor="start">proprietary software</text>
+<!-- Text -->
+<text xml:space="preserve" x="3697" y="2762" stroke="#000000" fill="#000000" font-family="Times" font-style="normal" font-weight="normal" font-size="245" text-anchor="start">public domain software</text>
+<!-- Text -->
+<text xml:space="preserve" x="4079" y="3102" stroke="#000000" fill="#000000" font-family="Times" font-style="normal" font-weight="normal" font-size="245" text-anchor="start">(with source)</text>
+<!-- Text -->
+<text xml:space="preserve" x="3399" y="5694" stroke="#000000" fill="#000000" font-family="Times" font-style="normal" font-weight="normal" font-size="245" text-anchor="start">software under GPL</text>
+<!-- Text -->
+<text xml:space="preserve" x="6799" y="7394" stroke="#000000" fill="#000000" font-family="Times" font-style="normal" font-weight="normal" font-size="245" text-anchor="start">free-download software</text>
+<!-- Text -->
+<text xml:space="preserve" x="3909" y="6799" stroke="#000000" fill="#000000" font-family="Times" font-style="normal" font-weight="normal" font-size="245" text-anchor="start">open source software</text>
+<!-- Text -->
+<text xml:space="preserve" x="3569" y="4895" stroke="#000000" fill="#000000" font-family="Times" font-style="normal" font-weight="normal" font-size="245" text-anchor="start">copylefted software</text>
+<!-- Text -->
+<text xml:space="preserve" x="7394" y="4164" stroke="#000000" fill="#000000" font-family="Times" font-style="normal" font-weight="normal" font-size="245" text-anchor="start">public domain software</text>
+<!-- Text -->
+<text xml:space="preserve" x="7819" y="4589" stroke="#000000" fill="#000000" font-family="Times" font-style="normal" font-weight="normal" font-size="245" text-anchor="start">(without source)</text>
+<!-- Text -->
+<text xml:space="preserve" x="8074" y="6714" stroke="#000000" fill="#000000" font-family="Times" font-style="normal" font-weight="normal" font-size="245" text-anchor="start">shareware</text>
+<!-- Text -->
+<text xml:space="preserve" x="3739" y="3739" stroke="#000000" fill="#000000" font-family="Times" font-style="normal" font-weight="normal" font-size="245" text-anchor="start">software under</text>
+<!-- Text -->
+<text xml:space="preserve" x="3399" y="4079" stroke="#000000" fill="#000000" font-family="Times" font-style="normal" font-weight="normal" font-size="245" text-anchor="start">lax permissive license</text>
+<!-- Line: box -->
+<rect x="2422" y="2167" width="4334" height="4972" rx="178" style="stroke:#000000;stroke-width:12; stroke-linejoin:miter; stroke-linecap:butt; "/>
+<!-- Line: box -->
+<rect x="2167" y="1359" width="4334" height="6459" rx="0" style="stroke:#000000;stroke-width:12; stroke-linejoin:miter; stroke-linecap:butt; "/>
+</g>
+</svg>

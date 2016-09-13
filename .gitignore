@@ -1,0 +1,14 @@
+*.pyc
+foo.tex
+foo.texi
+fsfs3-hardcover.tar.gz
+fsfs3-hardcover/
+orig/
+output/
+pass1/
+pass2/
+pass3/
+pass4/
+pass5/
+pass6/
+zzz_*
